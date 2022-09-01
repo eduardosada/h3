@@ -1,4 +1,4 @@
-import type http from 'http'
+import type * as http from 'http'
 import type { H3Event } from './event'
 
 interface CompatibilityRequestProps {
